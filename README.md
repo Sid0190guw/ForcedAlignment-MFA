@@ -9,7 +9,3 @@ Perform forced alignment using Montreal Forced Aligner (MFA) to align speech aud
 Run the setup script:
 ```bash
 bash setup/install_mfa.sh
-##
-(Optional) Create a virtual environment:
-python3 -m venv mfa_env
-source mfa_env/bin/activate
