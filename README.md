@@ -1,6 +1,6 @@
 # ForcedAlignment-MFA
 
-## 📌 Objective
+## ⭐ Objective
 Perform forced alignment using Montreal Forced Aligner (MFA) to align speech audio with phonetic transcription.
 
 ---
@@ -9,7 +9,6 @@ Perform forced alignment using Montreal Forced Aligner (MFA) to align speech aud
 Run the setup script:
 ```bash
 bash setup/install_mfa.sh
-
 
 python3 -m venv mfa_env
 source mfa_env/bin/activate
