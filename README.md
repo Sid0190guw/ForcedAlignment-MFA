@@ -1,3 +1,11 @@
 # ForcedAlignment-MFA
 
-This repository contains setup and scripts for performing forced alignment using Montreal Forced Aligner (MFA).
+## 📌 Objective
+Perform forced alignment using Montreal Forced Aligner (MFA) to align speech audio with phonetic transcription.
+
+---
+
+## ✅ Installation
+Run the setup script:
+```bash
+bash setup/install_mfa.sh
