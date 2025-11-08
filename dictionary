@@ -1,0 +1,10 @@
+Bash
+# Downloads the "english_g2p" model
+mfa model download g2p english_g2p
+Bash
+# This creates the new dictionary file
+mfa g2p ./mfa_corpus english_g2p ./my_custom_dictionary.txt
+Bash
+# Note the change: 'english_us_arpa' is replaced with './my_custom_dictionary.txt'
+
+mfa align ./mfa_corpus ./my_custom_dictionary.txt english_us_arpa ./mfa_output_custom
